@@ -54,6 +54,7 @@ int main(int argc, char *argv[]) {
         printf(" with arg %s", optarg);
       printf("\n");
       break;
+
     case 'v':
       verbose_flag = 1;
       break;
